@@ -39,7 +39,7 @@ if (j[0] === 0) {
 }
 var k = j.join("");
 document.getElementById("dec").innerHTML = "The original decimal number was " + original;
-document.getElementById("bin").innerHTML = "The number in binary is " + k;
+document.getElementById("bin").innerHTML = "The binary number is " + k;
 }
 
 
@@ -61,5 +61,5 @@ for (var a=output.length*1-1;a>-1;a--) {
 	}
 }
 document.getElementById("bina").innerHTML = "The original binary number was " + original;
-document.getElementById("deci").innerHTML = "The number in decimal is " + count;
+document.getElementById("deci").innerHTML = "The decimal number is " + count;
 }
